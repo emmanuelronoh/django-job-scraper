@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Django migrations (optional to ignore initial)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# SQLite database
+db.sqlite3
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Static and media
+staticfiles/
+media/
+
+# Environment variables
+.env
